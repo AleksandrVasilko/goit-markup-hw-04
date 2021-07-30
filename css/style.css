@@ -11,6 +11,7 @@ body{
     --primary-white-color: #ffffff;
     --botton-color: #f5f4fa; 
     --primary-bg-color: #2F303A;
+    --bg-hero:#C4C4C4;
 }
 
 h1, h2, h3, p, u, .li{
@@ -86,7 +87,19 @@ h1, h2, h3, p, u, .li{
     color: var(--primary-text-color);
 }
 
-.hero-section, .footer{
+.hero-section{
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: var(--bg-hero);
+   /* background-image: url("../images/hero-img.jpg");*/
+    background-image: linear-gradient(
+  to right,
+   rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)
+), url("../images/hero-img.jpg");
+}
+
+.footer{
     background-color: var(--primary-bg-color);
 }
 
