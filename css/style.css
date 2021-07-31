@@ -166,6 +166,20 @@ h1, h2, h3, p, u, .li{
     display: flex;
     justify-content: space-between;
 }
+
+.values-thumb{
+    background: var(--botton-color);
+    border-radius: 4px;
+    padding: 25px 100px;
+    margin-bottom: 30px;
+}
+
+.values-icons
+{
+    width: 70px;
+    height: 70px;
+}
+
 .values-list .item{
     width: 270px;
 }
