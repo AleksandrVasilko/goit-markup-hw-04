@@ -431,12 +431,20 @@ u,
 }
 
 .conect {
-  display: inline;
+  display: flex;
+  align-items: baseline;
+  width: 500px;
 }
 
 .conect-title {
   text-transform: uppercase;
   color: var(--primary-white-color);
+}
+
+.conecting {
+  width: 206px;
+  flex-wrap: wrap;
+  margin-left: 86px;
 }
 
 .page-social-box {
