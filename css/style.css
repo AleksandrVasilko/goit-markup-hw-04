@@ -147,11 +147,22 @@ a:focus {
   margin-left: auto;
 }
 
-.nav-link,
-.contact-link {
+.nav-link {
   margin-right: 50px;
 }
 
+.contact-link {
+  margin-right: 30px;
+}
+
+.contact-link:last-child {
+  margin-right: 0;
+}
+
+.email-icon,
+.smartphone-icon {
+  margin-right: 10px;
+}
 /* Герой */
 
 .hero-section {
@@ -409,7 +420,6 @@ a:focus {
   display: flex;
   width: 100%;
   justify-content: space-between;
-  padding: 0 32px;
   margin-top: 16px;
 }
 
